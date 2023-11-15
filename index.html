@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CounterJS</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="bgWhite screenFull flex justify-center items-center">
+        <div class="container">
+            <h1 class="bsGrey fs-36 ff-inter fw-normal text-center">Advance Counter app</h1>
+            <div class="card mt-43 flex items-center justify-center">
+                <div class="cardContent">
+                    <p id="showAdd" class="bsBlack fw-normal ff-inter fs-36 text-center">0</p>
+                    <div class="flex gap-10 mt-43">
+                        <button id="addBtn" type="submit" class="ff-inter fw-semibold fs-16 bsBlue addBtn Btn">Add One</button>
+                        <button id="saveBtn" type="submit" class="ff-inter fw-semibold fs-16 bsBlue saveBtn Btn">Save</button>
+                        <img id="reset" style="cursor: pointer;" src="./assets/reset.png" alt="reset">
+                    </div>
+                    <p class="bsBlack ff-inter fw-normal fs-16 text-center mt-43">Previous values</p>
+                    <p id="saveValues" class="bsBlack text-center ff-inter fs-16 fw-normal pt-14"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
