@@ -7,7 +7,7 @@ addBtn.addEventListener("click", function () {
   showAdd.innerHTML = +showAdd.innerHTML + 1;
 });
 saveBtn.addEventListener("click", function () {
-    saveValues.innerHTML +=","+showAdd.innerHTML;
+    saveValues.innerHTML += ' '+showAdd.innerHTML;
     showAdd.innerHTML=0;
 });
 
